@@ -54,6 +54,6 @@ Alejandro Ramirez Larena
 
 -Este es el digrama creado con Umbrello de el programa.  
 
-![Diagrama](diagramaFinal.png)
+![Diagrama](umbrello.png)
  
 
