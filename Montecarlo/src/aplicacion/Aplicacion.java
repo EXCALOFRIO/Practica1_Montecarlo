@@ -1,40 +1,11 @@
 package aplicacion;
+import mates.*;
 
-
-/**
- * Class Aplicacion
- */
 public class Aplicacion {
-
-  //
-  // Fields
-  //
-
-  
-  //
-  // Constructors
-  //
-  public Aplicacion () { };
-  
-  //
-  // Methods
-  //
-
-
-  //
-  // Accessor methods
-  //
-
-  //
-  // Other methods
-  //
-
-  /**
-   * @param        args
-   */
-  public static void main(String[] args)
-  {
-  }
-
-
+	public static void main(String[] args){
+		//String entrada = args[0];
+		String entrada = "100000";
+		int pasos=Integer.parseInt(entrada);
+		Matematicas.calcularPi(pasos);
+	}
 }
