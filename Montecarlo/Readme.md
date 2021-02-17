@@ -1,8 +1,8 @@
 # README #
-*23/11/2020 - 16/12/2020*  
+*16/02/2021 - 17/02/2021*  
 
 ![Copyrith](Copyrith.png)
->Copyright [2020] (Alejandro Ramirez Larena, Javier Martinez Cristobal, Pablo Rivero Dominguez, Joaquin Moreno Guzman copyright)
+>Copyright [2020] (Alejandro Ramirez Larena copyright)
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -13,11 +13,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.  
 
-**Trabajo Programacion I**
+**Trabajo Programacion II**
 
-### Proyecto final primera entrega ###
+### Proyecto I ###
 
--El programa crea un catalogo, con elementos, en este caso zapatillas.  
+-El programa genera mediante el metodo de Montecrlo una aproximacion a PI.  
 
 -El programa se ejecuta con los siguientes comandos.
 
@@ -33,61 +33,22 @@ limitations under the License.
 
 >Para crear el java doc make javadoc  
 
+### Ejemplo del metodo de Montecarlo ###
 
+![Montecarlo ejemplo](montecarlo.gif)
 
 ### Como usar ###
--Para annadir un producto use el comando add. 
-
--Para annadir un producto use el comando addDeportiva.
-
--Para annadir un producto use el comando addCaye.
-
--Para eliminar un producto use el comando delete. 
-
--Para editar un producto use el comando editNormal si quiere que la nueva zapatilla sea de tipo normal. 
-
--Para editar un producto use el comando editDeportiva si quiere que la nueva zapatilla sea de tipo deportiva. 
-
--Para editar un producto use el comando editCaye si quiere que la nueva zapatilla sea de tipo caye. 
-
--Para ver el catalogo use el comando catalogo.  
-
--Para ver la ayuda use el comando help.  
-
--Para poder generar el CSV use el comando csv
+-Para generar la aproximacion necesitamos introducir un numero de "dardos". 
 
 ### Comandos y ejemplos de uso ###
--De esta forma se annaden unas zapatillas java -jar catalogo.jar add Jordan Nike 42 
+-De esta forma se "tiran los dardos"  java -jar aplicacion.jar 100 
 
--De esta forma se annaden unas zapatillasDeportivas java -jar catalogo.jar addDeportivas Jordan Nike 42
-
--De esta forma se annaden unas zapatillasCaye java -jar catalogo.jar addCaye Jordan Nike 42 
-
--De esta forma se eliminan zapatillas java -jar catalogo.jar delete 1 
-
--De esta forma se editan zapatillas java -jar catalogo.jar editNormal 1 Jordan Nike 43 
-
--De esta forma se editan zapatillas java -jar catalogo.jar editDeportiva 1 Adidas Superstar 43 
-
--De esta forma se editan zapatillas java -jar catalogo.jar editCaye 1 Nautico SinCordones 43 
-
--De esta forma se ve el catalogo java -jar catalogo.jar catalogo   
-
--De esta forma se muestra la ayuda java -jar catalogo.jar help 
-
--De esta forma se genera el CSV java -jar catalogo.jar csv
-
-
+-El numero que se introduce es el numero de dardos
 
 ### Realizado por:
 
 Alejandro Ramirez Larena  
-
-Javier Martinez Cristobal  
-
-Pablo Rivero Dominguez
-
-Joaquin Moreno Guzman  
+ 
 
 ### Diagrama UML###
 
