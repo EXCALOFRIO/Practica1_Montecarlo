@@ -1,1 +1,1 @@
-Main-Class: aplicacion.Aplicacion
+Main-Class: aplicacion.Principal

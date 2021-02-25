@@ -17,7 +17,7 @@ import mates.*;
  * @author Alejandro Ramirez
  * @version 2.2, 22/02/2021
  */
-public class Aplicacion {
+public class Principal {
 	/**
 	 * Metodo que procesa la peticion de la sentencia
 	 *@param  args entrada que establece el numero de dardos
